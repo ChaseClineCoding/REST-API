@@ -31,7 +31,7 @@ public class Bookmark {
     }
 
     public static Bookmark from(Account account, Bookmark bookmark) {
-        return new Bookmark(account, bookmark.getUri(), bookmark.getDescription());
+        return new Bookmark(account, bookmark.uri, bookmark.getDescription());
     }
 
     public Long getId() {
